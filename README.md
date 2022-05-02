@@ -6,6 +6,7 @@
 </p>
 
 This repository can be used as a reference guide/sample to enable your first rubygem publish to GitHub Packages registry for rubygems.
+
 Find the installation counterpart for this publish over [here](https://github.com/dhruvsaraiya/sample-gem-install)
 
 ## :mega: Prerequisites
