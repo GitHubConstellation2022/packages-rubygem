@@ -45,12 +45,12 @@ jobs:
       ###############################################################
     - name: Setup credentials
       run: |
-          mkdir -p ~/.gem
-          cat > ~/.gem/credentials << EOM
-          ---
-          :github: Bearer ${GEM_HOST_API_KEY}
-          EOM
-          chmod 0600 ~/.gem/credentials
+        mkdir -p ~/.gem
+        cat > ~/.gem/credentials << EOM
+        ---
+        :github: Bearer ${GEM_HOST_API_KEY}
+        EOM
+        chmod 0600 ~/.gem/credentials
 
       ##############################
       # Build the gem from gemspec #
