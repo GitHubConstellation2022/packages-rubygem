@@ -9,8 +9,9 @@ Gem::Specification.new do |s|
   s.email       = 'octocat@github.com'
   s.files       = ['lib/sample_gem.rb']
   s.homepage    =
-    'https://rubygems.pkg.github.com/dhruvsaraiya/sample-gem'
+    'https://rubygems.pkg.github.com/dhruvsaraiya/samplegem'
   s.license     = 'MIT'
   s.required_ruby_version = '>= 2.5.0'
   s.metadata['allowed_push_host'] = 'https://rubygems.pkg.github.com/dhruvsaraiya'
+  s.metadata['github_repo'] = 'ssh://github.com/dhruvsaraiya/sample-gem'
 end
