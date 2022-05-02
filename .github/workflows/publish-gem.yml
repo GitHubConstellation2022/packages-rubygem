@@ -64,7 +64,7 @@ jobs:
       # Publish the gem to registry #
       ###############################
     - name: Publish .gem
-      run: gem push --KEY github --host https://rubygems.pkg.github.com/${OWNER} *.gem
+      run: gem push --key github --host https://rubygems.pkg.github.com/${OWNER} *.gem
       env:
         OWNER: ${{ github.repository_owner }}
 
