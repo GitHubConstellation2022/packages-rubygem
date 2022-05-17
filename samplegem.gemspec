@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'samplegem'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = 'This is a sample gem to understand GitHub Packages for RubyGems registry!'
   s.description = 'This is a sample gem to understand GitHub Packages for RubyGems registry!'
   s.authors     = ['GitHubConstellation2022']
