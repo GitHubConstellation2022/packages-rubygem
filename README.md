@@ -6,7 +6,7 @@
 </p>
 
 
-This repository can be used as a reference guide/sample to enable your first rubygem publish to GitHub Packages registry for rubygems.
+Sample repo to demonstrate working with the GitHub RubyGem registry
 
 ### Publishing
 
